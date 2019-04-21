@@ -1,4 +1,5 @@
 <template lang="pug">
+<h2>Je suis column</h2>
 </template>
 
 <script>

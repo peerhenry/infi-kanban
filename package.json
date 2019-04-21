@@ -30,6 +30,7 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
+    "vue-cli-plugin-tailwind": "^0.4.3",
     "vue-template-compiler": "^2.5.21"
   }
 }
