@@ -1,0 +1,42 @@
+Noodzakelijk:
+- kolommen kunnen toevoegen, beheren
+- kunnen zien aan wie ticket geassigned is (initialen goed genoeg)
+- titel en description toevoegen
+- aantal dagen in kolom gevisualiseerd
+- tickets kunnen toevoegen, verwijderen, editen
+Zeer wenselijk
+- basisgegevens per ticket
+-- unieke identifier (ticketnummer)
+-- reporter
+-- aanmaakdatum
+- WiP-limit per kolom in kunnen stellen (evt. ook over een groep kolommen, dus bijv. 6 slots voor 'in progress' & 'review' samen)
+- log van alle wijzigingen aan het ticket (wie heeft 'm versleept, tekst gewijzigd)
+- comments bij een ticket
+- mailtje als je gementioned wordt of als er een wijziging is aan een ticket dat aan jou geassigned is.
+- HTML-editor voor description-field (met name: opsommingen, vet, kleur)
+- slepen van kaartjes tussen kolommen
+- zoekfunctie op basis van ticketnummer, subject en description
+Mooi
+- onderscheid tussen 'doing' en 'finished' binnen één kolom. Dus als je klaar bent met het werk in 'in progress', dan sleep je het kaartje NIET naar de volgende kolom (want dat zou een push zijn), maar markeer je het als 'finished' binnen de kolom. Dan kan de upstreamkolom het vervolgens pullen. Alternatief zou zijn om een buffer te hebben, maar dan moet je de wip wel over de voorgaande kolom én de buffer tellen.
+- statistics:
+-- gemiddelde doorlooptijd per ticket (vanaf kolom x t/m kolom z)
+-- visualisatie van outliers (zoals de control chart in Jira)
+- bordweergave en lijstweergave
+- sjabloon-ticket/duplicatie van tickets
+- filteren op assignee 
+- filteren op label
+- verticale ordening ipv horizontaal? Dan heb je meer ruimte voor tekst, en kun je een 'kolom' collapsen als je die besproken hebt.
+Nice-to-have
+- indicator van hoeveel dagen er verstreken zijn sinds de ticket opgepakt is. Dan kun je dus de leadtime zien
+- statistics:
+-- gemiddelde tijd-in-kolom per ticket (dus 'gem 2,5 dagen in 'in progress' en 'gem. 10,2 dagen in 'review')
+-- veranderingen van deze gemiddelden over de tijd mbv rolling average
+- belangrijkste statistics op het bord laten zien, niet verborgen in een report.
+- tickets kunnen labellen
+- links naar andere tickets (maar kan ook met URL in description)
+- 'owner' van een ticket kunnen definieren (kan ook in subject of dmv labels)
+- prioriteit markeren (meestal weten teams dit wel)
+- link naar Git?
+- estimate toevoegen
+- achtergrondkleur van kaartje kunnen instellen (om een specifiek kaartje nadruk te geven, of om meerdere kaartjes met elkaar te verbinden)
+- subtaken duidelijk koppelen aan de hoofdtaak; evt kleiner kaartje voor gebruiken? Of implementeren als checkboxes, maar dan wel meteen ook op het board tonen, niet alleen in de detail view. 
